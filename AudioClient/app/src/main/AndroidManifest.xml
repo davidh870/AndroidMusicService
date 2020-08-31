@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.uic.cs478.aidl"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="edu.uic.cs478.Project5" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher" >
+        <activity
+            android:name= "edu.uic.cs478.aidl.MainActivity"
+            android:label="Audio Client">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
